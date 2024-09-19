@@ -12,3 +12,128 @@ img,
 video {
   display: block;
 }
+
+body {
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1306px 901px 0px;
+  font-family: Roboto;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.switzerland {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+p {
+  width: 100px;
+  text-align: end;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+
+.desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.switzerland .mobile {
+  width: 195px;
+  height: 30px;
+}
+
+.switzerland .desktop {
+  width: 105px;
+  height: 30px;
+}
+
+.usa {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.usa .mobile {
+  width: 153px;
+  height: 30px;
+}
+
+.usa .desktop {
+  width: 147px;
+  height: 30px;
+}
+
+.europe {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.europe .mobile {
+  width: 123px;
+  height: 30px;
+}
+
+.europe .desktop {
+  width: 177px;
+  height: 30px;
+}
+
+.legend {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.legenddesktop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rectangle {
+  width: 16px;
+  height: 16px;
+}
+
+.legenddesktop .rectangle {
+  background: #ffcc2f;
+}
+
+.legendmobile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legendmobile .rectangle {
+  background: #37d3d2;
+}
